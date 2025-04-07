@@ -284,6 +284,7 @@ p.date {
   align-items: center;
   justify-content: start;
   transition: 0.3s;
+  display: none;
 }
 .progress-bar {
   height: 1vw;
@@ -292,7 +293,7 @@ p.date {
 }
 .procent {
   font-size: 0.9rem !important;
-  padding-top: 5px;
+  padding-top: 10px;
   font-style: italic;
 }
 .skill-card i {
