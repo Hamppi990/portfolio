@@ -268,6 +268,7 @@ p.date {
   justify-content: center;
   flex-direction: column;
   padding: 2vw;
+  padding-bottom: 1vw;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2bec3;
   border-radius: 10px;
@@ -276,8 +277,7 @@ p.date {
 .progress-container {
   width: 80%;
   margin-top: 1vw;
-
-  background-color:#e7e3ef;
+  background-color: #e7e3ef;
   border-radius: 6px;
   overflow: hidden;
   display: flex;
@@ -287,8 +287,12 @@ p.date {
 }
 .progress-bar {
   height: 1vw;
-  background-color:#a29bfe;
+  background-color: #a29bfe;
   transition: 0.3s;
+}
+.procent {
+  font-size: 0.9rem !important;
+  padding-top: 5px;
 }
 .skill-card i {
   font-size: 3rem;
@@ -407,7 +411,6 @@ textarea:valid {
   border: 2px solid #a29bfe;
   transition: 0.3s;
 }
-
 
 label {
   font-weight: bold;
@@ -534,6 +537,9 @@ footer i {
 .right-side {
   transform: translateX(-50px);
 }
+.bottom-side {
+  transform: translateY(50px);
+}
 .right-side.visible {
   opacity: 1;
   transform: translateX(0);
@@ -654,7 +660,6 @@ footer i {
 }
 @media (hover: hover) {
   a:hover {
-
     transition: 0.3s;
     color: #f0f4f8;
   }
@@ -678,11 +683,11 @@ footer i {
     color: #a29bfe;
   }
   .skill-card:hover .progress-container {
-    background-color:#f3f1f7;
+    background-color: #f3f1f7;
     transition: 0.3s;
   }
   .skill-card:hover .progress-bar {
-    background-color:#b6b1fb;
+    background-color: #b6b1fb;
     transition: 0.3s;
   }
   #hamburger:hover {
@@ -690,13 +695,13 @@ footer i {
     border: 1px solid #b2bec3;
   }
   input:hover,
-textarea:hover {
-  transition: 0.3s;
-  border: 2px solid #858792;
-}
-footer a:hover {
-  color: #a29bfe;
-}
+  textarea:hover {
+    transition: 0.3s;
+    border: 2px solid #858792;
+  }
+  footer a:hover {
+    color: #a29bfe;
+  }
   #back-to-top:hover {
     animation: arrow-up 2s infinite;
     transition: 0.3s;
