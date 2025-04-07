@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Software developer specializing in web development, Explore my portfolio to see my projects"
+    />
+    <title id="title">Portfolio Joonas Juntunen</title>
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"></noscript>
+    <link rel="stylesheet" href="styles.css"/>
+    <script
+      src="https://kit.fontawesome.com/610b20c0fc.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    
+  </head>
+  <body>
+    <header id="header" onmouseover="showNav(this)">
+      <div id="hamburger-menu">
+        <button id="hamburger" onclick="toggleNav(this)">
+          <div id="hamburger-icon-bars" title="Avaa">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div id="hamburger-icon-x" hidden title="Sulje">
+            <i class="fas fa-times"></i>
+          </div>
+        </button>
+      </div>
+      <nav id="navigation" class="nav-content">
+        <div class="nav-left">
+          <a id="nav-home-text" class="nav-link" href="#home"></a>
+          <a id="nav-project-text" class="nav-link" href="#projects"
+            ></a
+          >
+          <a id="nav-skills-text" class="nav-link" href="#skills"></a>
+          <a id="nav-experience-text" class="nav-link" href="#experience"
+            ></a
+          >
+          <a id="nav-contact-text" class="nav-link" href="#contact"
+            ></a
+          >
+        </div>
+        <div class="nav-right">
+          <a
+            href="https://github.com/Hamppi990"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/joonas-juntunen-"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <button id="language" class="language-switcher" title="Vaihda kieli">
+            FI
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="fade-in">
+      <div class="hero-content">
+        <img src="images/lärvi.webp" class="rounded" alt="Hero image" />
+
+        <h4
+          style="margin-top: 2vh"
+          id="welcome-text"
+          class="fade-in right-side"
+        >
+        </h4>
+        <h1 id="hero-name" class="fade-in right-side">Joonas Juntunen</h1>
+        <p id="hero-title" class="fade-in right-side"></p>
+      </div>
+      <a href="#projects" aria-label="see-projects">
+        <div class="hero-scroll-down" id="hero-scroll-down">
+          <h4 id="hero-scroll-text"></h4>
+          <i class="fas fa-angle-down" id="down-arrow" style="padding-top: 60px;padding-right: 30px;padding-left: 30px; margin: -30px;"></i>
+        </a>
+        </div>
+        <div id="background-squares" class="fade-in">
+        </div>
+    </section>
+    
+    <div id="myModal" class="modal">
+      <span id="close-modal"><i class="fa-solid fa-times" style="  font-size: 2rem;"></i
+        ></span>
+      <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, activeModalIndex)"
+      ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+    ></a>
+    <a class="next" title="Seuraava kuva" onclick="plusSlides(1, activeModalIndex)"
+      ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+    ></a>
+      <img class="modal-content" id="modal-image">
+    </div>
+    <section id="projects" class="fade-in right-side">
+      <h2 id="projects-title" class="fade-in right-side"></h2>
+      <div class="project-container">
+        <div class="project-card">
+          <div class="mySlide1">
+            <img src="images/1.1.webp" alt="Project 1.1" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <div class="mySlide1">
+            <img src="images/1.2.webp" alt="Project 1.2" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <div class="mySlide1">
+            <img src="images/1.3.webp" alt="Project 1.3" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <div class="mySlide1">
+            <img src="images/1.4.webp" alt="Project 1.4" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <div class="mySlide1">
+            <img src="images/1.5.webp" alt="Project 1.5" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <div class="mySlide1">
+            <img src="images/1.6.webp" alt="Project 1.6" class="project-image" onclick="modal(0)" loading="lazy"/>
+          </div>
+          <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 0)"
+            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+          ></a>
+          <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 0)"
+            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+          ></a>
+          <h3 class="project-title" id="project1-text">
+            Kotkantien maalaus ja tapetointi
+          </h3>
+          <p class="date">12.8.2024</p>
+          <p class="project-description" id="project1-description"> </p>
+            <p class="project-description" id="project1-technologies">
+          </p>
+          <button>
+            <a href="https://geronimo.okol.org/~joojun/Maalaus/html/" target="_blank" id="project1-pagelink"></a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+          <button>
+            <a
+              href="https://github.com/Hamppi990/Kotkantien-maalaus-ja-tapetointi"
+              target="_blank"
+              id="project1-link">
+            </a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <div class="mySlide2">
+            <img src="images/2.1.webp" alt="Project 2.1" class="project-image" onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.2.webp" alt="Project 2.2" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.3.webp" alt="Project 2.3" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.4.webp" alt="Project 2.4" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.5.webp" alt="Project 2.5" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.6.webp" alt="Project 2.6" class="project-image"onclick="modal(1)"loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.7.webp" alt="Project 2.7" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.8.webp" alt="Project 2.8" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.9.webp" alt="Project 2.9" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <div class="mySlide2">
+            <img src="images/2.10.webp" alt="Project 2.10" class="project-image"onclick="modal(1)" loading="lazy"/>
+          </div>
+          <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 1)"
+            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+          ></a>
+          <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 1)"
+            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+          ></a>
+          <h3 class="project-title" id="project2-text"></h3>
+          <p class="date">22.1.2024</p>
+          <p class="project-description" id="project2-description">
+          </p>
+          <p class="project-description" id="project2-technologies"></p>
+          <button>
+            <a href="https://github.com/Hamppi990/Muistipeli1" target="_blank" id="project2-link"></a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <div class="mySlide3">
+            <img src="images/3.1.webp" alt="Project 3.1" class="project-image" onclick="modal(2)" loading="lazy"/>
+          </div>
+          <div class="mySlide3">
+            <img src="images/3.2.webp" alt="Project 3.2" class="project-image" onclick="modal(2)" loading="lazy"/>
+          </div>
+          <div class="mySlide3">
+            <img src="images/3.3.webp" alt="Project 3.3" class="project-image" onclick="modal(2)" loading="lazy"/>
+          </div>
+          <div class="mySlide3">
+            <img src="images/3.4.webp" alt="Project 3.4" class="project-image" onclick="modal(2)" loading="lazy"/>
+          </div>
+          <div class="mySlide3">
+            <img src="images/3.5.webp" alt="Project 3.5" class="project-image" onclick="modal(2)" loading="lazy"/>
+          </div>
+          <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 2)"
+            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+          ></a>
+          <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 2)"
+            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+          ></a>
+          <h3 class="project-title" id="project3-text"></h3>
+          <p class="date">20.1.2025</p>
+          <p class="project-description" id="project3-description">
+          </p>
+          <p class="project-description" id="project3-technologies"></p>
+          <button>
+            <a href="https://geronimo.okol.org/~joojun/Sanapeli/" target="_blank" id="project3-pagelink"></a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <a href="https://github.com/Hamppi990" target="_blank">
+        <h4 class="centered-text" id="show-more">
+          
+</h4
+      ></a>
+    </section>
+    <h2 id="skills-title" style="margin: 0 5vw" class="fade-in right-side">
+    </h2>
+    <section id="skills" class="fade-in right-side">
+      <div class="skills-container">
+        <h3 id="skills-language-text"></h3>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+        >
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+          </div>
+        </a>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="_blank"
+        >
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+        </a>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+        >
+          <div class="skill-card">
+            <i class="fab fa-js-square"></i>
+            <p>JavaScript</p>
+          </div>
+        </a>
+        <a href="https://www.php.net/" target="_blank">
+          <div class="skill-card">
+            <i class="fab fa-php"></i>
+            <p>PHP</p>
+          </div>
+        </a>
+        <a href="https://www.mysql.com/" target="_blank">
+          <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <p>MySQL</p>
+          </div>
+        </a>
+        <a href="https://www.python.org/" target="_blank">
+          <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <p>Python</p>
+          </div>
+        </a>
+        <a
+          href="https://learn.microsoft.com/en-us/dotnet/csharp/"
+          target="_blank"
+        >
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <p>C#</p>
+          </div>
+        </a>
+        <a href="https://en.cppreference.com/w/c" target="_blank">
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <p>C</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="skills-container">
+        <h3 id="skills-framework-text"></h3>
+        <a href="https://vuejs.org/" target="_blank">
+          <div class="skill-card">
+            <i class="fab fa-vuejs"></i>
+            <p>Vue.js</p>
+          </div>
+        </a>
+        <a href="https://getbootstrap.com/" target="_blank">
+          <div class="skill-card">
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+        </a>
+        <a href="https://jquery.com/" target="_blank">
+          <div class="skill-card">
+            <i class="fab fa-js-square"></i>
+            <p>JQuery</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="experience" class="fade-in right-side">
+      <h2 id="experience-title" class="fade-in right-side"></h2>
+      <div class="experience-container">
+        <div class="timeline">a</div>
+        <div class="experience-card left">
+          <i class="fas fa-briefcase"></i>
+          <h3 class="experience-company">Wisemaster</h3>
+          <p class="experience-position" id="job1-position"></p>
+          <p class="experience-date">7.1.2025 - 9.5.2025</p>
+          <p class="experience-description" id="job1-description">
+          </p>
+          <button>
+            <a href="https://www.wisemaster.fi" target="_blank" id="job1-link">
+            </a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+        <div class="experience-card right">
+          <i class="fas fa-user-graduate"></i>
+          <h3 class="experience-company" id="job2-title"></h3>
+          <p class="experience-position"id="job2-position"></p>
+          <p class="experience-date">1.8.2023 - 9.5.2025</p>
+          <p class="experience-description"id="job2-description">
+          </p>
+          <button>
+            <a href="https://www.osao.fi/tietoa-hakemisesta/yksikot/kaukovainion-yksikko-tekniikka/" target="_blank" id="job2-link"
+              >
+            </a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+        <div class="experience-card left">
+          <i class="fas fa-school"></i>
+          <h3 class="experience-company" id="job3-title"></h3>
+          <p class="experience-position"id="job3-position"></p>
+          <p class="experience-date">2014 - 3.6.2023</p>
+          <p class="experience-description"id="job3-description">
+          </p>
+          <button>
+            <a
+              href="https://www.ouka.fi/talvikankaan-koulu"
+              target="_blank"
+              id="job3-link"
+              >
+            </a>
+            <i class="fas fa-external-link-alt" id="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="fade-in right-side">
+      <h2 id="contact-title" class="fade-in right-side"></h2>
+      <h3 class="fade-in right-side" id="contact-sub-title" style="padding: 50px; text-align: center;"></h3>   
+      <form id="contact-form" name="contact" action="send_email.php" method="POST">
+        <div class="form-group">
+          <div class="form-box">
+            <label for="firstname" id="firstnamelabel"></label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder=""
+              required
+              autocomplete="given-name"
+              maxlength="50"
+              minlength="2"
+            />
+          </div>
+          <div class="form-box">
+            <label for="lastname" id="lastnamelabel"></label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder=""
+              required
+              autocomplete="family-name"
+              maxlength="50"
+              minlength="2"
+            />
+          </div>
+        </div>
+
+        <div class="form-box">
+          <label for="email" id="emaillabel"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder=""
+            required
+            autocomplete="email"
+            maxlength="320"
+            minlength="5"
+          />
+        </div>
+
+        <div class="form-box">
+          <label for="subject" id="subjectlabel"></label>
+          <input type="text" id="subject" name="subject" placeholder="" required maxlength="100"
+          minlength="3" />
+        </div>
+
+        <div class="form-box">
+          <label for="message" id="messagelabel"></label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder=""
+            rows="5"
+            required
+            maxlength="2000"
+            minlength="10"
+          ></textarea>
+        </div>
+
+        <button type="submit" id="submit"></button>
+        <p id="form-message"></p>
+      </form>
+    </section>
+    <a href="#home" aria-label="back-to-top"
+      ><button id="back-to-top" title="Takaisin ylös">
+        <i class="fa fa-arrow-up" id="arrow-up"></i></button
+    ></a>
+    <br>
+    <footer>
+      <div class="footer-social">
+        <a
+          href="https://github.com/Hamppi990"
+          aria-label="GitHub"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/joonas-juntunen-"
+          aria-label="LinkedIn"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home" class="footer-link" id="footer-link-home"></a>
+        <a href="#projects" class="footer-link"id="footer-link-projects" ></a>
+        <a href="#skills" class="footer-link" id="footer-link-skills"></a>
+        <a href="#experience" class="footer-link" id="footer-link-experience"></a>
+        <a href="#contact" class="footer-link" id="footer-link-contact"></a>
+      </div>
+      <p id="footer-text" style="color: #a29bfe">&copy; 2025 Joonas Juntunen</p>
+    </footer>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/translations.js" defer></script>
+    <script src="scripts/background.js" defer></script>
+    <script src="scripts/project-carousel.js" defer></script>
+    <script src="scripts/nav-bar.js" defer></script>
+    <script src="scripts/form-validation.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+body.dark::-webkit-scrollbar-track {
+  background: #555;
+}
+
+body.dark {
+  background: linear-gradient(180deg, #1a1a1a 62%, #121212 83%, #0d0d0d 100%);
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+body.dark header {
+  background-color: #333;
+  border-color: #555;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+body.dark #navigation a,
+body.dark .nav-left a {
+  color: #9aafff;
+}
+body.dark #hamburger,
+body.dark #hamburger-menu {
+  border-color: #555;
+}
+
+body.dark a {
+  color: #9aafff;
+}
+
+body.dark button {
+  background-color: #555;
+  color: #e0e0e0;
+  border: none;
+}
+
+body.dark input,
+body.dark textarea {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 2px solid #555;
+}
+body.dark input:valid,
+body.dark textarea:valid {
+  border: 2px solid #777;
+}
+
+body.dark .project-container {
+  background: #2e2e2e;
+  border: 1px solid #555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+body.dark .project-description {
+  color: #e0e0e0;
+}
+
+body.dark .skills-container {
+  background: #2e2e2e;
+  border: 1px solid #555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+body.dark .skill-card {
+  background: #3a3a3a;
+  border: 1px solid #555;
+}
+body.dark .progress-bar {
+  background-color:#9aafff;
+}
+body.dark .experience-card {
+  background: #2e2e2e;
+  border: 1px solid #555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+body.dark .experience-description,
+body.dark p.experience-position,
+body.dark p.experience-date {
+  color: #e0e0e0;
+}
+
+body.dark .timeline {
+  background-color: #333;
+}
+
+body.dark ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+body.dark .modal {
+  background-color: rgba(17, 17, 17, 0.95);
+}
+body.dark .modal-content {
+  background: #333;
+  border: none;
+}
+
+body.dark footer {
+  background-color: #1f1f1f;
+  border-top: 1px solid #555;
+}
+body.dark footer a {
+  color: #9aafff;
+}
+@media only screen and (max-width: 725px) {
+  body.dark #navigation {
+    border-color: #555;
+    background-color: #333;
+  }
+}
+
+@media (hover: hover) {
+  body.dark a:hover {
+    color: #c1d2ff !important;
+  }
+  body.dark button:hover {
+    background-color: #777 !important;
+    color: #e0e0e0;
+  }
+  body.dark input:hover,
+  body.dark textarea:hover {
+    border: 2px solid #999;
+  }
+  body.dark .skill-card:hover {
+    color: #e0e0e0;
+    transition: 0.3s;
+  }
+  body.dark .skill-card:hover .progress-bar {
+    background-color:#bac6f8;
+    transition: 0.3s;
+  }
+  body.dark footer a:hover {
+    color: #c1d2ff;
+  }
+}
