@@ -87,7 +87,9 @@ body.dark .modal-content {
   background: #333;
   border: none;
 }
-
+body.dark .procent {
+  color: #f0f4f8;
+}
 body.dark footer {
   background-color: #1f1f1f;
   border-top: 1px solid #555;
@@ -124,8 +126,5 @@ body.dark footer a {
   }
   body.dark footer a:hover {
     color: #c1d2ff;
-  }
-  body.dark .skills-container:hover .procent {
-    color: #9aafff;
   }
 }
