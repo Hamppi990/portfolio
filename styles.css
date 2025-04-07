@@ -268,7 +268,7 @@ p.date {
   justify-content: center;
   flex-direction: column;
   padding: 2vw;
-  padding-bottom: 1vw;
+  padding-bottom: 0.5vw;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2bec3;
   border-radius: 10px;
@@ -276,7 +276,7 @@ p.date {
 }
 .progress-container {
   width: 80%;
-  margin-top: 1vw;
+  margin-top: 1.5vw;
   background-color: #e7e3ef;
   border-radius: 6px;
   overflow: hidden;
@@ -293,6 +293,7 @@ p.date {
 .procent {
   font-size: 0.9rem !important;
   padding-top: 5px;
+  font-style: italic;
 }
 .skill-card i {
   font-size: 3rem;
