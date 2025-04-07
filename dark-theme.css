@@ -62,7 +62,7 @@ body.dark .skill-card {
   border: 1px solid #555;
 }
 body.dark .progress-bar {
-  background-color:#9aafff;
+  background-color: #9aafff;
 }
 body.dark .experience-card {
   background: #2e2e2e;
@@ -122,10 +122,13 @@ body.dark footer a {
     transition: 0.3s;
   }
   body.dark .skill-card:hover .progress-bar {
-    background-color:#bac6f8;
+    background-color: #bac6f8;
     transition: 0.3s;
   }
   body.dark footer a:hover {
     color: #c1d2ff;
+  }
+  body.dark .skills-container:hover .procent {
+    color: #9aafff;
   }
 }

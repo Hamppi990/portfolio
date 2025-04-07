@@ -276,7 +276,7 @@ p.date {
 }
 .progress-container {
   width: 80%;
-  margin-top: 1.5vw;
+  margin-top: 1.2vw;
   background-color: #e7e3ef;
   border-radius: 6px;
   overflow: hidden;
@@ -707,5 +707,8 @@ footer i {
     animation: arrow-up 2s infinite;
     transition: 0.3s;
     background-color: #6c5ce7;
+  }
+  .skills-container:hover .procent {
+    color: #6c5ce7;
   }
 }
