@@ -87,15 +87,16 @@
       <span id="close-modal"><i class="fa-solid fa-times" style="  font-size: 2rem;"></i
         ></span>
       <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, activeModalIndex)"
-      ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+      ><i class="fa-solid fa-angle-left" style="  font-size: 2rem;"></i
     ></a>
     <a class="next" title="Seuraava kuva" onclick="plusSlides(1, activeModalIndex)"
-      ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+      ><i class="fa-solid fa-angle-right" style="  font-size: 2rem;"></i
     ></a>
       <img class="modal-content" id="modal-image">
     </div>
     <section id="projects" class="fade-in right-side">
       <h2 id="projects-title" class="fade-in right-side"></h2>
+      <div class="fade-in right-side">
       <div class="project-container">
         <div class="project-card">
           <div class="mySlide1">
@@ -117,10 +118,10 @@
             <img src="images/1.6.webp" alt="Project 1.6" class="project-image" onclick="modal(0)" loading="lazy"/>
           </div>
           <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 0)"
-            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-left" style="  font-size: 2rem;"></i
           ></a>
           <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 0)"
-            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-right" style="  font-size: 2rem;"></i
           ></a>
           <h3 class="project-title" id="project1-text">
             Kotkantien maalaus ja tapetointi
@@ -144,6 +145,8 @@
           </button>
         </div>
       </div>
+    </div>
+    <div class="fade-in right-side">
       <div class="project-container">
         <div class="project-card">
           <div class="mySlide2">
@@ -177,10 +180,10 @@
             <img src="images/2.10.webp" alt="Project 2.10" class="project-image"onclick="modal(1)" loading="lazy"/>
           </div>
           <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 1)"
-            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-left" style="  font-size: 2rem;"></i
           ></a>
           <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 1)"
-            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-right" style="  font-size: 2rem;"></i
           ></a>
           <h3 class="project-title" id="project2-text"></h3>
           <p class="date">22.1.2024</p>
@@ -193,6 +196,8 @@
           </button>
         </div>
       </div>
+    </div>
+    <div class="fade-in right-side">
       <div class="project-container">
         <div class="project-card">
           <div class="mySlide3">
@@ -211,10 +216,10 @@
             <img src="images/3.5.webp" alt="Project 3.5" class="project-image" onclick="modal(2)" loading="lazy"/>
           </div>
           <a class="prev" title="Aiempi kuva" onclick="plusSlides(-1, 2)"
-            ><i class="fa-solid fa-angle-left" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-left" style="  font-size: 2rem;"></i
           ></a>
           <a class="next" title="Seuraava kuva" onclick="plusSlides(1, 2)"
-            ><i class="fa-solid fa-angle-right" style="  font-size: 1.5rem;"></i
+            ><i class="fa-solid fa-angle-right" style="  font-size: 2rem;"></i
           ></a>
           <h3 class="project-title" id="project3-text"></h3>
           <p class="date">20.1.2025</p>
@@ -227,6 +232,7 @@
           </button>
         </div>
       </div>
+    </div>
       <a href="https://github.com/Hamppi990" target="_blank" rel="noopener noreferrer">
         <h4 class="centered-text" id="show-more">
           
@@ -323,6 +329,16 @@
             <p class="procent">40%</p>
           </div>
         </a>
+        <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+          <div class="skill-card">
+            <i class="fab fa-git-alt"></i>
+            <p>Git</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 40%;"></div>
+            </div>
+            <p class="procent">40%</p>
+          </div>
+        </a>
       </div>
       <div class="skills-container">
         <h3 id="skills-framework-text"></h3>
@@ -357,7 +373,77 @@
             </div>
           </a>
       </div>
+     
     </section>
+    <div class="fade-in bottom-side">
+    <div class="skills-container" style="margin: 0 5vw;">
+      <h3 id="skills-software-text" class="fade-in bottom-side"></h3>
+    
+      <a href="https://www.microsoft.com/microsoft-365/word" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-file-word"></i>
+          <p>Word</p>
+        </div>
+      </a>
+    
+      <a href="https://www.microsoft.com/microsoft-365/excel" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-file-excel"></i>
+          <p>Excel</p>
+        </div>
+      </a>
+    
+      <a href="https://www.microsoft.com/microsoft-365/powerpoint" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-file-powerpoint"></i>
+          <p>PowerPoint</p>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+      </a>
+    
+      <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-image"></i>
+          <p>Photoshop</p>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 60%;"></div>
+          </div>
+        </div>
+      </a>
+    
+      <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-vector-square"></i>
+          <p>Illustrator</p>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 60%;"></div>
+          </div>
+        </div>
+      </a>
+    
+      <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-crop-simple"></i>
+          <p>Adobe Xd</p>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 50%;"></div>
+          </div>
+        </div>
+      </a>
+    
+      <a href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer">
+        <div class="skill-card">
+          <i class="fa-solid fa-video"></i>
+          <p>CapCut</p>
+          <div class="progress-container">
+            <div class="progress-bar" style="width: 40%;"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+    </div>
     <section id="experience" class="fade-in right-side">
       <h2 id="experience-title" class="fade-in right-side"></h2>
       <div class="experience-container">

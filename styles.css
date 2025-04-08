@@ -40,7 +40,7 @@ section {
   scroll-margin-top: 4vh;
 }
 p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 h2 {
   font-weight: 700;
@@ -191,7 +191,6 @@ header {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  font-size: 1.2;
   user-select: none;
   z-index: 123423;
   position: absolute;
@@ -231,13 +230,13 @@ header {
 .project-description {
   margin-top: 2vh;
   margin-bottom: 4vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 p.date {
   color: #6c5ce7;
   font-weight: bold;
-  font-size: large;
+  font-size: 1.35rem;
 }
 
 #skills {
@@ -268,7 +267,7 @@ p.date {
   justify-content: center;
   flex-direction: column;
   padding: 2vw;
-  padding-bottom: 0.5vw;
+  padding-bottom: 1.5vw;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2bec3;
   border-radius: 10px;
@@ -292,13 +291,14 @@ p.date {
   transition: 0.3s;
 }
 .procent {
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
   padding-top: 10px;
   font-style: italic;
   color: #2d3436;
+  display: none;
 }
 .skill-card i {
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin-bottom: 20px;
 }
 .skills-container h3 {
@@ -310,7 +310,7 @@ p.date {
   width: 20vh;
 }
 .skills-container p {
-  font-size: large;
+  font-size: 1.2rem;
 }
 .rounded {
   border-radius: 50%;
@@ -348,13 +348,13 @@ p.date {
 .experience-description {
   margin-top: 1vh;
   margin-bottom: 2vh;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 p.experience-position,
 p.experience-date {
   font-weight: bold;
-  font-size: large;
+  font-size: 1.3rem;
   color: #6c5ce7;
 }
 .left {
@@ -402,12 +402,13 @@ textarea {
   width: 100%;
   max-width: 100%;
   min-width: 100%;
-  padding: 10px;
+  padding: 11px;
   border-radius: 8px;
   margin-bottom: 10px;
   border: 2px solid rgba(209, 196, 233, 1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  font-size: 0.9rem;
 }
 input:valid,
 textarea:valid {
@@ -417,11 +418,12 @@ textarea:valid {
 
 label {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  font-size: 1.1rem;
 }
 #submit-button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1.1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
@@ -530,22 +532,19 @@ footer i {
 }
 .fade-in {
   opacity: 0;
-  transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.right-side {
+  transform: translateX(-50px);
+}
+
+.fade-in.bottom-side {
+  transform: translateY(50px);
 }
 .fade-in.visible {
   opacity: 1;
-  transform: translateY(0);
-}
-.right-side {
-  transform: translateX(-50px);
-}
-.bottom-side {
-  transform: translateY(50px);
-}
-.right-side.visible {
-  opacity: 1;
-  transform: translateX(0);
+  transform: translateX(0) translateY(0);
 }
 @keyframes arrow {
   0% {
