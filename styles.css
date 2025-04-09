@@ -702,14 +702,14 @@ footer i {
   .skill-card:hover p:first-of-type {
     opacity: 0;
     visibility: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
   }
 
   .skill-card:hover .progress-container,
   .skill-card:hover .procent {
     opacity: 1;
     visibility: visible;
-    transition: 0.5s;
+    transition: 0.4s;
   }
   #hamburger:hover {
     background: #e7e3ef;
