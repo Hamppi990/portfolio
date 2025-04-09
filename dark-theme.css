@@ -117,11 +117,9 @@ body.dark footer a {
     border: 2px solid #999;
   }
   body.dark .skill-card:hover {
-    color: #e0e0e0;
     transition: 0.3s;
   }
   body.dark .skill-card:hover .progress-bar {
-    background-color: #bac6f8;
     transition: 0.3s;
   }
   body.dark footer a:hover {
