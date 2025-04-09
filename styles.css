@@ -319,8 +319,7 @@ p.date {
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.25rem;
-  font-style: italic;
+  font-size: 1.2rem;
   color: #2d3436;
   opacity: 0;
   transition: 0.3s;
