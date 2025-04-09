@@ -96,7 +96,7 @@ const elements = document[_0x1d42c8(0x1c6)](".fade-in"),
           _0x259cf4["unobserve"](_0x53501e[_0x53dec4(0x1d2)]));
       });
     },
-    { threshold: 0.2 }
+    { threshold: 0.1 }
   );
 function _0x533e(_0x35c0e8, _0x3db977) {
   const _0x27a480 = _0x27a4();

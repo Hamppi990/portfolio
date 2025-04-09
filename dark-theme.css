@@ -112,15 +112,10 @@ body.dark footer a {
     background-color: #777 !important;
     color: #e0e0e0;
   }
+
   body.dark input:hover,
   body.dark textarea:hover {
     border: 2px solid #999;
-  }
-  body.dark .skill-card:hover {
-    transition: 0.3s;
-  }
-  body.dark .skill-card:hover .progress-bar {
-    transition: 0.3s;
   }
   body.dark footer a:hover {
     color: #c1d2ff;

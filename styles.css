@@ -288,12 +288,12 @@ p.date {
 .skill-card i {
   font-size: 3.3rem;
   margin-bottom: 20px;
-  transition: opacity 0.3s ease-in-out;
+  transition: 0.3s;
 }
 
 .skill-card p {
   font-size: 1.2rem;
-  transition: opacity 0.3s ease-in-out;
+  transition: 0.3s;
 }
 .progress-container {
   position: absolute;
@@ -702,14 +702,20 @@ footer i {
   .skill-card:hover p:first-of-type {
     opacity: 0;
     visibility: hidden;
-    transition: 0.4s;
+    transition: 0.4s !important;
   }
 
   .skill-card:hover .progress-container,
   .skill-card:hover .procent {
     opacity: 1;
     visibility: visible;
-    transition: 0.4s;
+    transition: 0.4s !important;
+  }
+  .skill-card:hover {
+    transition: 0.3s;
+  }
+  .skill-card:hover .progress-bar {
+    transition: 0.3s;
   }
   #hamburger:hover {
     background: #e7e3ef;
