@@ -18,6 +18,7 @@ body {
   color: #2d3436;
   opacity: 0.8;
   background-position: center;
+  overflow-x: hidden;
   background: linear-gradient(
     180deg,
     rgba(240, 244, 248, 1) 62%,
@@ -242,8 +243,8 @@ p.date {
 #skills {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 2vw;
   scroll-margin-top: 14svh;
 }
@@ -273,10 +274,7 @@ p.date {
 
 .skill-card {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   padding: 2svw 2svw 1.5svw;
   background: #d1c4e9;
   border: 1px solid #b2bec3;
@@ -440,10 +438,8 @@ label {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: 0 0vw;
   width: 100%;
   background-color: #3d4057;
@@ -596,7 +592,7 @@ footer i {
   display: none;
   position: fixed;
   z-index: 1000;
-  padding-top: 100px;
+  align-content: center;
   left: 0;
   top: 0;
   width: 100%;
@@ -632,9 +628,6 @@ footer i {
   max-height: 90%;
   border-radius: 10px;
   cursor: zoom-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .modal-content {
   -webkit-animation-name: zoom;
