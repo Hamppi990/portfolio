@@ -38,8 +38,8 @@ body {
 }
 section {
   padding: 50px 0;
-  margin: 0 5svw;
-  scroll-margin-top: 4svh;
+  margin: 0 5dvw;
+  scroll-margin-top: 4dvh;
 }
 p {
   font-size: 1.15rem;
@@ -47,12 +47,12 @@ p {
 h2 {
   font-weight: 700;
   font-size: 2.5rem;
-  margin-bottom: 10svh;
+  margin-bottom: 10dvh;
 }
 h3 {
   font-weight: 700;
   font-size: 2rem;
-  margin: 1svh;
+  margin: 1dvh;
 }
 i {
   font-size: 1rem;
@@ -97,7 +97,7 @@ header {
   border: 1px solid #b2bec3;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 5svw;
+  margin: 0 5dvw;
   transition: 0.3s;
 }
 #navigation {
@@ -141,7 +141,7 @@ header {
   height: 30px !important;
 }
 #home {
-  height: 100svh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +174,7 @@ header {
 #arrow-right {
   position: relative;
   animation: arrow-right 2s infinite;
-  margin-left: 0.5svw;
+  margin-left: 0.5dvw;
 }
 #about {
   display: flex;
@@ -199,10 +199,10 @@ header {
   top: 30%;
 }
 .prev {
-  left: 10svw;
+  left: 10dvw;
 }
 .next {
-  right: 10svw;
+  right: 10dvw;
 }
 .project-card {
   position: relative;
@@ -223,17 +223,17 @@ header {
   border-radius: 10px;
 }
 .project-container img {
-  max-height: 40svh;
-  max-width: 80svw;
+  max-height: 40dvh;
+  max-width: 80dvw;
   cursor: zoom-in;
   border-radius: 10px;
   object-fit: cover;
 }
 .project-description {
-  margin-top: 2svh;
-  margin-bottom: 4svh;
-  margin-left: 5svw;
-  margin-right: 5svw;
+  margin-top: 2dvh;
+  margin-bottom: 4dvh;
+  margin-left: 5dvw;
+  margin-right: 5dvw;
 }
 p.date {
   color: #6c5ce7;
@@ -246,8 +246,8 @@ p.date {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2svw;
-  scroll-margin-top: 14svh;
+  gap: 2dvw;
+  scroll-margin-top: 14dvh;
 }
 
 .skills-container {
@@ -269,14 +269,14 @@ p.date {
 }
 
 .skills-container a {
-  width: 20svh;
+  width: 20dvh;
   text-decoration: none;
 }
 
 .skill-card {
   position: relative;
   align-content: center;
-  padding: 2svw 2svw 1.5svw;
+  padding: 2dvw 2dvw 1.5dvw;
   background: #d1c4e9;
   border: 1px solid #b2bec3;
   border-radius: 10px;
@@ -309,7 +309,7 @@ p.date {
 }
 
 .progress-bar {
-  height: 1svw;
+  height: 1dvw;
   background-color: #a29bfe;
 }
 
@@ -339,7 +339,7 @@ p.date {
 .experience-card {
   background: #e7e3ef;
   width: 55%;
-  margin-bottom: 5svw;
+  margin-bottom: 5dvw;
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2bec3;
@@ -358,10 +358,10 @@ p.date {
   color: #fff;
 }
 .experience-description {
-  margin-top: 1svh;
-  margin-bottom: 2svh;
-  margin-left: 2svw;
-  margin-right: 2svw;
+  margin-top: 1dvh;
+  margin-bottom: 2dvh;
+  margin-left: 2dvw;
+  margin-right: 2dvw;
 }
 p.experience-position,
 p.experience-date {
@@ -441,7 +441,7 @@ label {
 footer {
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 0svw;
+  margin: 0 0dvw;
   width: 100%;
   background-color: #3d4057;
   color: white;
@@ -453,16 +453,16 @@ footer {
 }
 footer a {
   color: white;
-  margin: 0.3svw;
+  margin: 0.3dvw;
   font-size: 1.07rem;
 }
 footer i {
   font-size: 1.5rem;
-  margin: 0.3svw;
+  margin: 0.3dvw;
 }
 .footer-links {
-  margin-bottom: 1.5svw;
-  margin-top: 1svw;
+  margin-bottom: 1.5dvw;
+  margin-top: 1dvw;
 }
 @media only screen and (max-width: 725px) {
   .rounded {
@@ -497,7 +497,7 @@ footer i {
     display: block;
     position: fixed;
     top: 20px;
-    right: 4svw;
+    right: 4dvw;
   }
   #navigation {
     display: none;
@@ -505,7 +505,7 @@ footer i {
     padding: 20px;
     position: fixed;
     top: 90px;
-    right: 4svw;
+    right: 4dvw;
     background-color: #d1c4e9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -545,8 +545,8 @@ footer i {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding-top: 1svw;
-    padding-bottom: 1svw;
+    padding-top: 1dvw;
+    padding-bottom: 1dvw;
   }
   .footer-links a {
     font-size: 1rem;
