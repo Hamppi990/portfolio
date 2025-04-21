@@ -752,6 +752,6 @@ footer i {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 4;
+  z-index: -2;
   pointer-events: none;
 }
