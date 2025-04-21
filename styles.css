@@ -740,3 +740,18 @@ footer i {
     background-color: #6c5ce7;
   }
 }
+
+.noise-wrapper {
+  position: absolute;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  pointer-events: none;
+}
