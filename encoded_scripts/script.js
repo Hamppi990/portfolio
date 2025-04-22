@@ -48,7 +48,7 @@ const elements = document["querySelectorAll"](".fade-in"),
           _0x525d09[_0x5b4068(0xf7)](_0x499ea5[_0x5b4068(0x113)]));
       });
     },
-    { threshold: 0.2 }
+    { threshold: 0.1 }
   );
 elements[_0x225052(0xfd)]((_0xb5160) => observer[_0x225052(0xee)](_0xb5160)),
   document["querySelectorAll"](".progress-bar")[_0x225052(0xfd)](
