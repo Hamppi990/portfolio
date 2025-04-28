@@ -36,8 +36,8 @@ body {
 }
 section {
   padding: 50px 0;
-  margin: 0 5dvw;
-  scroll-margin-top: 4dvh;
+  margin: 0 5vw;
+  scroll-margin-top: calc(var(--vh) * 4); /* korjattu */
 }
 p {
   font-size: 1.15rem;
@@ -45,12 +45,12 @@ p {
 h2 {
   font-weight: 700;
   font-size: 2.5rem;
-  margin-bottom: 10dvh;
+  margin-bottom: 10vh;
 }
 h3 {
   font-weight: 700;
   font-size: 2rem;
-  margin: 1dvh;
+  margin: 1vh;
 }
 i {
   font-size: 1rem;
@@ -95,7 +95,7 @@ header {
   border: 1px solid #b2bec3;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 5dvw;
+  margin: 0 5vw;
   transition: 0.3s;
 }
 #navigation {
@@ -139,7 +139,7 @@ header {
   height: 30px !important;
 }
 #home {
-  height: 100dvh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +172,7 @@ header {
 #arrow-right {
   position: relative;
   animation: arrow-right 2s infinite;
-  margin-left: 0.5dvw;
+  margin-left: 0.5vw;
 }
 #about {
   display: flex;
@@ -197,10 +197,10 @@ header {
   top: 30%;
 }
 .prev {
-  left: 10dvw;
+  left: 10vw;
 }
 .next {
-  right: 10dvw;
+  right: 10vw;
 }
 .project-card {
   position: relative;
@@ -221,16 +221,16 @@ header {
   border-radius: 10px;
 }
 .project-container img {
-  max-height: 40dvh;
-  max-width: 80dvw;
+  max-height: 40vh;
+  max-width: 80vw;
   cursor: zoom-in;
   border-radius: 10px;
   object-fit: cover;
 }
 .project-description {
-  margin-block-start: 2dvh;
-  margin-block-end: 4dvh;
-  margin-inline: 5dvw;
+  margin-block-start: 2vh;
+  margin-block-end: 4vh;
+  margin-inline: 5vw;
 }
 p.date {
   color: #6c5ce7;
@@ -243,8 +243,8 @@ p.date {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2dvw;
-  scroll-margin-top: 14dvh;
+  gap: 2vw;
+  scroll-margin-top: calc(var(--vh) * 14);
 }
 
 .skills-container {
@@ -266,14 +266,14 @@ p.date {
 }
 
 .skills-container a {
-  width: 20dvh;
+  width: 20vh;
   text-decoration: none;
 }
 
 .skill-card {
   position: relative;
   align-content: center;
-  padding: 2dvw 2dvw 1.5dvw;
+  padding: 2vw 2vw 1.5vw;
   background: #d1c4e9;
   border: 1px solid #b2bec3;
   border-radius: 10px;
@@ -306,7 +306,7 @@ p.date {
 }
 
 .progress-bar {
-  height: 1dvw;
+  height: 1vw;
   background-color: #a29bfe;
 }
 
@@ -336,7 +336,7 @@ p.date {
 .experience-card {
   background: #e7e3ef;
   width: 55%;
-  margin-bottom: 5dvw;
+  margin-bottom: 5vw;
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2bec3;
@@ -355,9 +355,9 @@ p.date {
   color: #fff;
 }
 .experience-description {
-  margin-block-start: 1dvh;
-  margin-block-end: 2dvh;
-  margin-inline: 2dvw;
+  margin-block-start: 1vh;
+  margin-block-end: 2vh;
+  margin-inline: 2vw;
 }
 p.experience-position,
 p.experience-date {
@@ -437,7 +437,7 @@ label {
 footer {
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 0dvw;
+  margin: 0 0vw;
   width: 100%;
   background-color: #3d4057;
   color: white;
@@ -449,16 +449,16 @@ footer {
 }
 footer a {
   color: white;
-  margin: 0.3dvw;
+  margin: 0.3vw;
   font-size: 1.07rem;
 }
 footer i {
   font-size: 1.5rem;
-  margin: 0.3dvw;
+  margin: 0.3vw;
 }
 .footer-links {
-  margin-block-end: 1.5dvw;
-  margin-block-start: 1dvw;
+  margin-block-end: 1.5vw;
+  margin-block-start: 1vw;
 }
 @media only screen and (max-width: 725px) {
   .rounded {
@@ -493,7 +493,7 @@ footer i {
     display: block;
     position: fixed;
     top: 20px;
-    right: 4dvw;
+    right: 4vw;
   }
   #navigation {
     display: none;
@@ -501,7 +501,7 @@ footer i {
     padding: 20px;
     position: fixed;
     top: 90px;
-    right: 4dvw;
+    right: 4vw;
     background-color: #d1c4e9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -541,8 +541,8 @@ footer i {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding-block-start: 1dvw;
-    padding-block-end: 1dvw;
+    padding-block-start: 1vw;
+    padding-block-end: 1vw;
   }
   .footer-links a {
     font-size: 1rem;
