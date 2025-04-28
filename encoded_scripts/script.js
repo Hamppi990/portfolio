@@ -1,233 +1,257 @@
-const _0x193315 = _0x1b63;
-(function (_0x137a0a, _0x23a516) {
-  const _0x3801fc = _0x1b63,
-    _0x505332 = _0x137a0a();
+const _0x3408ec = _0x478b;
+(function (_0x64dd0e, _0x4658fa) {
+  const _0x914a01 = _0x478b,
+    _0x1f9ddb = _0x64dd0e();
   while (!![]) {
     try {
-      const _0x3ea61c =
-        parseInt(_0x3801fc(0x108)) / 0x1 +
-        (-parseInt(_0x3801fc(0xfd)) / 0x2) *
-          (-parseInt(_0x3801fc(0xee)) / 0x3) +
-        (-parseInt(_0x3801fc(0x105)) / 0x4) *
-          (-parseInt(_0x3801fc(0x106)) / 0x5) +
-        (-parseInt(_0x3801fc(0xf6)) / 0x6) *
-          (-parseInt(_0x3801fc(0xe6)) / 0x7) +
-        (-parseInt(_0x3801fc(0x10a)) / 0x8) *
-          (parseInt(_0x3801fc(0x113)) / 0x9) +
-        (parseInt(_0x3801fc(0xf5)) / 0xa) * (parseInt(_0x3801fc(0xeb)) / 0xb) +
-        -parseInt(_0x3801fc(0xde)) / 0xc;
-      if (_0x3ea61c === _0x23a516) break;
-      else _0x505332["push"](_0x505332["shift"]());
-    } catch (_0x15f88a) {
-      _0x505332["push"](_0x505332["shift"]());
+      const _0x5d7f60 =
+        -parseInt(_0x914a01(0x160)) / 0x1 +
+        (parseInt(_0x914a01(0x155)) / 0x2) *
+          (-parseInt(_0x914a01(0x159)) / 0x3) +
+        parseInt(_0x914a01(0x156)) / 0x4 +
+        parseInt(_0x914a01(0x144)) / 0x5 +
+        (parseInt(_0x914a01(0x143)) / 0x6) *
+          (-parseInt(_0x914a01(0x171)) / 0x7) +
+        (parseInt(_0x914a01(0x146)) / 0x8) *
+          (-parseInt(_0x914a01(0x150)) / 0x9) +
+        (-parseInt(_0x914a01(0x148)) / 0xa) *
+          (-parseInt(_0x914a01(0x14f)) / 0xb);
+      if (_0x5d7f60 === _0x4658fa) break;
+      else _0x1f9ddb["push"](_0x1f9ddb["shift"]());
+    } catch (_0x4ef3b5) {
+      _0x1f9ddb["push"](_0x1f9ddb["shift"]());
     }
   }
-})(_0x29b0, 0x39110);
-const backToTopButton = document[_0x193315(0xe7)](_0x193315(0x109)),
-  scrollDown = document[_0x193315(0xe7)](_0x193315(0xe3));
-window[_0x193315(0xfb)](_0x193315(0xe8), () => {
-  const _0x14e338 = _0x193315;
-  document["documentElement"]["scrollTop"] > 0x28a
-    ? ((backToTopButton[_0x14e338(0x104)][_0x14e338(0xed)] = "1"),
-      (scrollDown[_0x14e338(0x104)]["opacity"] = "0"),
-      (backToTopButton[_0x14e338(0x104)]["pointerEvents"] = _0x14e338(0xdd)),
-      (scrollDown[_0x14e338(0x104)]["pointerEvents"] = "none"),
-      (backToTopButton[_0x14e338(0x104)]["cursor"] = _0x14e338(0xec)))
-    : ((backToTopButton[_0x14e338(0x104)]["opacity"] = "0"),
-      (scrollDown[_0x14e338(0x104)][_0x14e338(0xed)] = "1"),
-      (backToTopButton["style"]["pointerEvents"] = _0x14e338(0x110)),
-      (scrollDown[_0x14e338(0x104)][_0x14e338(0xf4)] = "auto"),
-      (backToTopButton[_0x14e338(0x104)][_0x14e338(0x10e)] = _0x14e338(0x110)));
+})(_0xa48e, 0x6b967);
+const backToTopButton = document[_0x3408ec(0x14d)](_0x3408ec(0x163)),
+  scrollDown = document[_0x3408ec(0x14d)](_0x3408ec(0x168));
+window["addEventListener"](_0x3408ec(0x13d), () => {
+  const _0xe11aba = _0x3408ec;
+  document[_0xe11aba(0x145)][_0xe11aba(0x16e)] > 0x28a
+    ? ((backToTopButton[_0xe11aba(0x141)][_0xe11aba(0x142)] = "1"),
+      (scrollDown[_0xe11aba(0x141)][_0xe11aba(0x142)] = "0"),
+      (backToTopButton[_0xe11aba(0x141)]["pointerEvents"] = _0xe11aba(0x147)),
+      (scrollDown[_0xe11aba(0x141)][_0xe11aba(0x14a)] = _0xe11aba(0x13e)),
+      (backToTopButton[_0xe11aba(0x141)][_0xe11aba(0x13f)] = _0xe11aba(0x164)))
+    : ((backToTopButton[_0xe11aba(0x141)][_0xe11aba(0x142)] = "0"),
+      (scrollDown[_0xe11aba(0x141)][_0xe11aba(0x142)] = "1"),
+      (backToTopButton[_0xe11aba(0x141)][_0xe11aba(0x14a)] = _0xe11aba(0x13e)),
+      (scrollDown[_0xe11aba(0x141)][_0xe11aba(0x14a)] = _0xe11aba(0x147)),
+      (backToTopButton[_0xe11aba(0x141)]["cursor"] = _0xe11aba(0x13e)));
 });
-const elements = document[_0x193315(0xf8)](_0x193315(0xff)),
+const elements = document[_0x3408ec(0x15a)](_0x3408ec(0x16b)),
   observer = new IntersectionObserver(
-    (_0x1fe1b7) => {
-      const _0x218720 = _0x193315;
-      _0x1fe1b7[_0x218720(0xf7)]((_0x4b7ae4) => {
-        const _0x3e8768 = _0x218720;
-        _0x4b7ae4[_0x3e8768(0x10b)]
-          ? _0x4b7ae4[_0x3e8768(0xdc)][_0x3e8768(0xe0)][_0x3e8768(0xe2)](
-              _0x3e8768(0x102)
+    (_0x3fde56) => {
+      _0x3fde56["forEach"]((_0x44a1dc) => {
+        const _0x283dc6 = _0x478b;
+        _0x44a1dc[_0x283dc6(0x174)]
+          ? _0x44a1dc[_0x283dc6(0x166)]["classList"][_0x283dc6(0x13b)](
+              _0x283dc6(0x161)
             )
-          : _0x4b7ae4[_0x3e8768(0xdc)]["classList"]["remove"](_0x3e8768(0x102));
+          : _0x44a1dc["target"][_0x283dc6(0x177)]["remove"]("visible");
       });
     },
     { threshold: 0.1 }
   );
-elements[_0x193315(0xf7)]((_0xe65d68) => observer[_0x193315(0xfe)](_0xe65d68)),
-  document["querySelectorAll"](".progress-bar")["forEach"]((_0x4c53d7) => {
-    const _0x2d9857 = _0x193315,
-      _0x5d555b = parseInt(_0x4c53d7[_0x2d9857(0x104)][_0x2d9857(0x101)]),
-      _0x1e4319 = document[_0x2d9857(0x103)][_0x2d9857(0xe0)][_0x2d9857(0x107)](
-        _0x2d9857(0xdf)
-      );
-    let _0x1538c1;
-    if (_0x1e4319) {
-      const _0x45dee6 = 0xe9,
-        _0x335c03 = 0x64,
-        _0x424216 = 0x3c + _0x5d555b * 0.25;
-      _0x1538c1 =
-        _0x2d9857(0x10f) +
-        _0x45dee6 +
+function _0x478b(_0x475f31, _0x56ef89) {
+  const _0xa48ec3 = _0xa48e();
+  return (
+    (_0x478b = function (_0x478bd3, _0x5cfcc2) {
+      _0x478bd3 = _0x478bd3 - 0x13b;
+      let _0x22c9a6 = _0xa48ec3[_0x478bd3];
+      return _0x22c9a6;
+    }),
+    _0x478b(_0x475f31, _0x56ef89)
+  );
+}
+elements[_0x3408ec(0x170)]((_0x117fe2) =>
+  observer[_0x3408ec(0x15e)](_0x117fe2)
+),
+  document[_0x3408ec(0x15a)](".progress-bar")[_0x3408ec(0x170)]((_0x3a00f6) => {
+    const _0x3f484d = _0x3408ec,
+      _0x11a5b7 = parseInt(_0x3a00f6["style"][_0x3f484d(0x165)]),
+      _0x14f746 = document[_0x3f484d(0x153)][_0x3f484d(0x177)][
+        _0x3f484d(0x14e)
+      ](_0x3f484d(0x175));
+    let _0x332a24;
+    if (_0x14f746) {
+      const _0x2863e7 = 0xe9,
+        _0x20a103 = 0x64,
+        _0x8410ea = 0x3c + _0x11a5b7 * 0.25;
+      _0x332a24 =
+        _0x3f484d(0x158) +
+        _0x2863e7 +
         ",\x20" +
-        _0x335c03 +
-        _0x2d9857(0xe5) +
-        _0x424216 +
+        _0x20a103 +
+        _0x3f484d(0x151) +
+        _0x8410ea +
         "%)";
     } else {
-      const _0x576153 = 0xfa,
-        _0xae5b85 = 0x50,
-        _0xc53c8e = 0x5a - _0x5d555b * 0.15;
-      _0x1538c1 =
-        "hsl(" + _0x576153 + ",\x20" + _0xae5b85 + "%,\x20" + _0xc53c8e + "%)";
+      const _0x487bc2 = 0xfa,
+        _0x599c3e = 0x50,
+        _0x57b8cb = 0x5a - _0x11a5b7 * 0.15;
+      _0x332a24 =
+        _0x3f484d(0x158) +
+        _0x487bc2 +
+        ",\x20" +
+        _0x599c3e +
+        _0x3f484d(0x151) +
+        _0x57b8cb +
+        "%)";
     }
-    _0x4c53d7["style"]["backgroundColor"] = _0x1538c1;
+    _0x3a00f6["style"]["backgroundColor"] = _0x332a24;
   });
-const canvas = document["getElementById"](_0x193315(0x114)),
-  ctx = canvas["getContext"]("2d"),
+const canvas = document["getElementById"]("noiseCanvas"),
+  ctx = canvas[_0x3408ec(0x16f)]("2d"),
   patternSize = 0xfa,
   patternAlpha = 0xc,
   patternRefreshInterval = 0x2;
 let frame = 0x0;
-const patternCanvas = document[_0x193315(0xe4)](_0x193315(0x112));
-function _0x29b0() {
-  const _0x599440 = [
-    "querySelectorAll",
-    "fillRect",
-    "createPattern",
-    "addEventListener",
-    "pow",
-    "2084PLhREn",
-    "observe",
-    ".fade-in",
-    "clearRect",
-    "width",
-    "visible",
-    "body",
-    "style",
-    "12ETURvi",
-    "105115CtlZwC",
-    "contains",
-    "99212FmckaN",
-    "back-to-top",
-    "8NDnZzk",
-    "isIntersecting",
-    "innerWidth",
-    "raf",
-    "cursor",
-    "hsl(",
-    "none",
-    "getContext",
-    "canvas",
-    "2855943PWMZLV",
-    "noiseCanvas",
-    "fillStyle",
-    "repeat",
-    "target",
-    "auto",
-    "3412308KLOOxI",
-    "dark",
-    "classList",
-    "innerHeight",
-    "add",
-    "hero-scroll-down",
-    "createElement",
-    "%,\x20",
-    "7KZiNbN",
-    "getElementById",
-    "scroll",
-    "createImageData",
-    "putImageData",
-    "166188FJGdjy",
-    "pointer",
-    "opacity",
-    "678UYFbap",
-    "random",
-    "data",
-    "height",
-    "min",
-    "devicePixelRatio",
-    "pointerEvents",
-    "80DAABRP",
-    "1900758HVBXLh",
-    "forEach",
-  ];
-  _0x29b0 = function () {
-    return _0x599440;
-  };
-  return _0x29b0();
-}
-(patternCanvas[_0x193315(0x101)] = patternSize),
-  (patternCanvas[_0x193315(0xf1)] = patternSize);
-const patternCtx = patternCanvas[_0x193315(0x111)]("2d"),
-  patternData = patternCtx[_0x193315(0xe9)](patternSize, patternSize),
+const patternCanvas = document[_0x3408ec(0x16c)](_0x3408ec(0x152));
+(patternCanvas[_0x3408ec(0x165)] = patternSize),
+  (patternCanvas[_0x3408ec(0x162)] = patternSize);
+const patternCtx = patternCanvas[_0x3408ec(0x16f)]("2d"),
+  patternData = patternCtx["createImageData"](patternSize, patternSize),
   patternPixelDataLength = patternSize * patternSize * 0x4;
+function scrollToTop() {
+  const _0x698a52 = _0x3408ec;
+  lenis[_0x698a52(0x173)](0x0, {
+    duration: 0.3,
+    easing: (_0x559fa3) => _0x559fa3,
+  });
+}
 function resizeCanvas() {
-  const _0x104959 = _0x193315;
-  (canvas[_0x104959(0x101)] =
-    window[_0x104959(0x10c)] * window["devicePixelRatio"]),
-    (canvas["height"] = window[_0x104959(0xe1)] * window[_0x104959(0xf3)]);
+  const _0x45a433 = _0x3408ec;
+  (canvas[_0x45a433(0x165)] =
+    window[_0x45a433(0x13c)] * window[_0x45a433(0x149)]),
+    (canvas[_0x45a433(0x162)] =
+      window[_0x45a433(0x15c)] * window[_0x45a433(0x149)]);
 }
 function updatePattern() {
-  const _0x5096d8 = _0x193315;
+  const _0x1422d4 = _0x3408ec;
   for (
-    let _0x5867ae = 0x0;
-    _0x5867ae < patternPixelDataLength;
-    _0x5867ae += 0x4
+    let _0x2d182d = 0x0;
+    _0x2d182d < patternPixelDataLength;
+    _0x2d182d += 0x4
   ) {
-    const _0x43cbae = Math[_0x5096d8(0xef)]() * 0xff;
-    (patternData[_0x5096d8(0xf0)][_0x5867ae] = _0x43cbae),
-      (patternData["data"][_0x5867ae + 0x1] = _0x43cbae),
-      (patternData[_0x5096d8(0xf0)][_0x5867ae + 0x2] = _0x43cbae),
-      (patternData["data"][_0x5867ae + 0x3] = patternAlpha);
+    const _0x3f2143 = Math[_0x1422d4(0x14c)]() * 0xff;
+    (patternData["data"][_0x2d182d] = _0x3f2143),
+      (patternData[_0x1422d4(0x16d)][_0x2d182d + 0x1] = _0x3f2143),
+      (patternData["data"][_0x2d182d + 0x2] = _0x3f2143),
+      (patternData["data"][_0x2d182d + 0x3] = patternAlpha);
   }
-  patternCtx[_0x5096d8(0xea)](patternData, 0x0, 0x0);
+  patternCtx[_0x1422d4(0x14b)](patternData, 0x0, 0x0);
 }
 function drawGrain() {
-  const _0xa712bf = _0x193315;
-  ctx[_0xa712bf(0x100)](0x0, 0x0, canvas[_0xa712bf(0x101)], canvas["height"]),
-    (ctx[_0xa712bf(0x115)] = ctx[_0xa712bf(0xfa)](
+  const _0x418124 = _0x3408ec;
+  ctx["clearRect"](0x0, 0x0, canvas["width"], canvas[_0x418124(0x162)]),
+    (ctx[_0x418124(0x15b)] = ctx[_0x418124(0x172)](
       patternCanvas,
-      _0xa712bf(0x116)
+      _0x418124(0x15f)
     )),
-    ctx[_0xa712bf(0xf9)](0x0, 0x0, canvas["width"], canvas[_0xa712bf(0xf1)]);
+    ctx[_0x418124(0x15d)](
+      0x0,
+      0x0,
+      canvas[_0x418124(0x165)],
+      canvas[_0x418124(0x162)]
+    );
 }
 function loop() {
   frame % patternRefreshInterval === 0x0 && (updatePattern(), drawGrain()),
     frame++,
     requestAnimationFrame(loop);
 }
-window["addEventListener"]("resize", resizeCanvas), resizeCanvas(), loop();
+window[_0x3408ec(0x169)](_0x3408ec(0x16a), resizeCanvas),
+  resizeCanvas(),
+  loop();
 const lenis = new Lenis({
   duration: 1.2,
-  easing: (_0x2ecd0c) =>
-    Math[_0x193315(0xf2)](
+  easing: (_0x2a5c8c) =>
+    Math[_0x3408ec(0x167)](
       0x1,
-      1.001 - Math[_0x193315(0xfc)](0x2, -0xa * _0x2ecd0c)
+      1.001 - Math[_0x3408ec(0x157)](0x2, -0xa * _0x2a5c8c)
     ),
   smooth: !![],
 });
-function raf(_0x1885cf) {
-  const _0x230028 = _0x193315;
-  lenis[_0x230028(0x10d)](_0x1885cf), requestAnimationFrame(raf);
-}
-function _0x1b63(_0x50bee4, _0x4ea418) {
-  const _0x29b0d6 = _0x29b0();
-  return (
-    (_0x1b63 = function (_0x1b6318, _0x2881ed) {
-      _0x1b6318 = _0x1b6318 - 0xdc;
-      let _0x1fe2ed = _0x29b0d6[_0x1b6318];
-      return _0x1fe2ed;
-    }),
-    _0x1b63(_0x50bee4, _0x4ea418)
-  );
+function raf(_0x5b4ff2) {
+  const _0x80c0ee = _0x3408ec;
+  lenis[_0x80c0ee(0x176)](_0x5b4ff2), requestAnimationFrame(raf);
 }
 requestAnimationFrame(raf);
 const setVH = () => {
-  document.documentElement.style.setProperty(
-    "--vh",
-    `${window.innerHeight * 0.01}px`
+  const _0x4244bc = _0x3408ec;
+  document[_0x4244bc(0x145)][_0x4244bc(0x141)][_0x4244bc(0x140)](
+    _0x4244bc(0x154),
+    window[_0x4244bc(0x15c)] * 0.01 + "px"
   );
 };
-window.addEventListener("resize", setVH);
-setVH();
+window["addEventListener"](_0x3408ec(0x16a), setVH), setVH();
+function _0xa48e() {
+  const _0x51892b = [
+    "3933625VKZcae",
+    "documentElement",
+    "13952BykzpT",
+    "auto",
+    "5861110rJEhmL",
+    "devicePixelRatio",
+    "pointerEvents",
+    "putImageData",
+    "random",
+    "getElementById",
+    "contains",
+    "22MGDnQD",
+    "3384JBAwMe",
+    "%,\x20",
+    "canvas",
+    "body",
+    "--vh",
+    "61632suigeo",
+    "686784yMKXtW",
+    "pow",
+    "hsl(",
+    "33aUeJSB",
+    "querySelectorAll",
+    "fillStyle",
+    "innerHeight",
+    "fillRect",
+    "observe",
+    "repeat",
+    "210461cWXRlA",
+    "visible",
+    "height",
+    "back-to-top",
+    "pointer",
+    "width",
+    "target",
+    "min",
+    "hero-scroll-down",
+    "addEventListener",
+    "resize",
+    ".fade-in",
+    "createElement",
+    "data",
+    "scrollTop",
+    "getContext",
+    "forEach",
+    "38129scqkwn",
+    "createPattern",
+    "scrollTo",
+    "isIntersecting",
+    "dark",
+    "raf",
+    "classList",
+    "add",
+    "innerWidth",
+    "scroll",
+    "none",
+    "cursor",
+    "setProperty",
+    "style",
+    "opacity",
+    "534cCETmx",
+  ];
+  _0xa48e = function () {
+    return _0x51892b;
+  };
+  return _0xa48e();
+}
