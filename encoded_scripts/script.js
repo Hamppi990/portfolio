@@ -223,11 +223,3 @@ function _0x1b63(_0x50bee4, _0x4ea418) {
   );
 }
 requestAnimationFrame(raf);
-const setVH = () => {
-  document.documentElement.style.setProperty(
-    "--vh",
-    `${window.innerHeight * 0.01}px`
-  );
-};
-window.addEventListener("resize", setVH);
-setVH();
