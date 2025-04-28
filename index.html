@@ -15,6 +15,10 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"></noscript>
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" href="dark-theme.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"
+      crossorigin="anonymous"
+      defer>
+    </script>
 
     <script
       src="https://kit.fontawesome.com/610b20c0fc.js"
@@ -40,17 +44,11 @@
       </div>
       <nav id="navigation" class="nav-content">
         <div class="nav-left">
-          <a id="nav-home-text" class="nav-link" href="#home"></a>
-          <a id="nav-project-text" class="nav-link" href="#projects"
-            ></a
-          >
-          <a id="nav-skills-text" class="nav-link" href="#skills"></a>
-          <a id="nav-experience-text" class="nav-link" href="#experience"
-            ></a
-          >
-          <a id="nav-contact-text" class="nav-link" href="#contact"
-            ></a
-          >
+          <a id="nav-home-text" class="nav-link" href="#home" aria-label="Home"></a>
+          <a id="nav-project-text" class="nav-link" href="#projects" aria-label="Projects"></a>
+          <a id="nav-skills-text" class="nav-link" href="#skills" aria-label="Skills"></a>
+          <a id="nav-experience-text" class="nav-link" href="#experience" aria-label="Experience"></a>
+          <a id="nav-contact-text" class="nav-link" href="#contact" aria-label="Contact"></a>
         </div>
         <div class="nav-right">
 
@@ -133,16 +131,17 @@
           <p class="project-description" id="project1-description"> </p>
             <p class="project-description" id="project1-technologies">
           </p>
-          <button>
-            <a href="https://geronimo.okol.org/~joojun/Maalaus/html/" target="_blank" rel="noopener noreferrer" id="project1-pagelink"></a>
+          <button aria-label="View project page">
+            <a href="https://geronimo.okol.org/~joojun/Maalaus/html/" target="_blank" rel="noopener noreferrer" id="project1-pagelink" aria-label="Kotkantien maalaus ja tapetointi Project Page"></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
-          <button>
+          <button aria-label="View project on GitHub">
             <a
               href="https://github.com/Hamppi990/Kotkantien-maalaus-ja-tapetointi"
               target="_blank"
               id="project1-link"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              aria-label="Kotkantien maalaus ja tapetointi GitHub">
             </a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
@@ -193,8 +192,8 @@
           <p class="project-description" id="project2-description">
           </p>
           <p class="project-description" id="project2-technologies"></p>
-          <button>
-            <a href="https://github.com/Hamppi990/Muistipeli1" target="_blank" rel="noopener noreferrer" id="project2-link"></a>
+          <button aria-label="View project on GitHub">
+            <a href="https://github.com/Hamppi990/Muistipeli1" target="_blank" rel="noopener noreferrer" id="project2-link" aria-label="Muistipeli1 GitHub"></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
         </div>
@@ -229,8 +228,8 @@
           <p class="project-description" id="project3-description">
           </p>
           <p class="project-description" id="project3-technologies"></p>
-          <button>
-            <a href="https://geronimo.okol.org/~joojun/Sanapeli/" target="_blank" id="project3-pagelink" rel="noopener noreferrer"></a>
+          <button aria-label="View project page">
+            <a href="https://geronimo.okol.org/~joojun/Sanapeli/" target="_blank" id="project3-pagelink" rel="noopener noreferrer" aria-label="Sanapeli Project Page"></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
         </div>
@@ -291,7 +290,6 @@
             <p class="procent">60%</p>
           </div>
         </a>
-        
         <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
           <div class="skill-card">
             <i class="fas fa-database"></i>
@@ -473,9 +471,8 @@
           <p class="experience-date">7.1.2025 - 9.5.2025</p>
           <p class="experience-description" id="job1-description">
           </p>
-          <button>
-            <a href="https://www.wisemaster.fi" target="_blank" rel="noopener noreferrer" id="job1-link">
-            </a>
+          <button aria-label="View Wisemaster">
+            <a href="https://www.wisemaster.fi" target="_blank" rel="noopener noreferrer" id="job1-link" aria-label="Wisemaster"></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
         </div>
@@ -486,10 +483,8 @@
           <p class="experience-date">1.8.2023 - 9.5.2025</p>
           <p class="experience-description"id="job2-description">
           </p>
-          <button>
-            <a href="https://www.osao.fi/tietoa-hakemisesta/yksikot/kaukovainion-yksikko-tekniikka/" target="_blank" rel="noopener noreferrer" id="job2-link"
-              >
-            </a>
+          <button aria-label="View OSAO">
+            <a href="https://www.osao.fi/tietoa-hakemisesta/yksikot/kaukovainion-yksikko-tekniikka/" target="_blank" rel="noopener noreferrer" id="job2-link" aria-label="OSAO"></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
         </div>
@@ -500,14 +495,14 @@
           <p class="experience-date">2014 - 3.6.2023</p>
           <p class="experience-description"id="job3-description">
           </p>
-          <button>
+          <button aria-label="View Talvikankaan koulu">
             <a
               href="https://www.ouka.fi/talvikankaan-koulu"
               target="_blank"
               id="job3-link"
               rel="noopener noreferrer"
-              >
-            </a>
+              aria-label="Talvikankaan koulu"
+              ></a>
             <i class="fas fa-external-link-alt" id="arrow-right"></i>
           </button>
         </div>
@@ -612,11 +607,11 @@
       </div>
 
       <div class="footer-links">
-        <a href="#home" class="footer-link" id="footer-link-home"></a>
-        <a href="#projects" class="footer-link"id="footer-link-projects" ></a>
-        <a href="#skills" class="footer-link" id="footer-link-skills"></a>
-        <a href="#experience" class="footer-link" id="footer-link-experience"></a>
-        <a href="#contact" class="footer-link" id="footer-link-contact"></a>
+        <a href="#home" class="footer-link" id="footer-link-home" aria-label="Home"></a>
+        <a href="#projects" class="footer-link"id="footer-link-projects" aria-label="Projects"></a>
+        <a href="#skills" class="footer-link" id="footer-link-skills" aria-label="Skills"></a>
+        <a href="#experience" class="footer-link" id="footer-link-experience" aria-label="Experience"></a>
+        <a href="#contact" class="footer-link" id="footer-link-contact" aria-label="Contact"></a>
       </div>
       <p id="footer-text" style="color: #a29bfe">&copy; 2025 Joonas Juntunen</p>
     </footer>
