@@ -371,11 +371,37 @@ p.experience-date {
 .right {
   align-self: flex-end;
 }
+.year-container {
+  text-align: center;
+  color: #636e72;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.year-container p {
+  color: #6c5ce7 !important;
+  font-size: 2rem;
+}
+
 .timeline {
   height: 75%;
   background-color: #d1c4e9;
   z-index: -11;
   position: absolute;
+  border-radius: 10px;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
 }
 #back-to-top {
   position: fixed;
