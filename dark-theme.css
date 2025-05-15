@@ -61,6 +61,10 @@ body.dark .skill-card {
   background: #3a3a3a;
   border: 1px solid #555;
 }
+body.dark .year-container p {
+  color: #9aafff !important;
+  font-size: 2rem;
+}
 body.dark .experience-card {
   background: #2e2e2e;
   border: 1px solid #555;
