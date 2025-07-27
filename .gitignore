@@ -1,4 +1,9 @@
 /encoded_scripts/form-validation.js
-scripts/
+scripts/background.js
+scripts/project-carousel.js
+scripts/form-validation.js
+scripts/nav-bar.js
+scripts/change-theme.js
+scripts/script.js
 index2.html
 send_email.php
